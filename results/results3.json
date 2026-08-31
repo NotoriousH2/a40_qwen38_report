@@ -1,0 +1,112 @@
+[
+ {
+  "name": "O_f16_n3",
+  "cfg": {
+   "name": "O_f16_n3",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "f16",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 3
+  },
+  "vram_loaded_mib": 22313,
+  "decode_tps_short": [
+   66.02525060719958,
+   68.44444714489259,
+   68.20068952143593
+  ],
+  "decode_tps_short_med": 68.20068952143593,
+  "draft_n": 379,
+  "draft_acc": 256,
+  "accept_rate": 0.6754617414248021,
+  "prefill_n": 31220,
+  "prefill_tps": 957.5561841183633,
+  "decode_tps_long": 18.865432867357143,
+  "vram_peak_mib": 22391,
+  "draft_tok_total": 1140.0,
+  "acc_tok_total": 769.0,
+  "drafts_total": 382.0,
+  "per_pos": {
+   "0": 319.0,
+   "1": 249.0,
+   "2": 201.0
+  }
+ },
+ {
+  "name": "P_f16_n5",
+  "cfg": {
+   "name": "P_f16_n5",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "f16",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 5
+  },
+  "vram_loaded_mib": 22617,
+  "decode_tps_short": [
+   69.96753908088961,
+   72.60645613574792,
+   72.21888469151976
+  ],
+  "decode_tps_short_med": 72.21888469151976,
+  "draft_n": 491,
+  "draft_acc": 284,
+  "accept_rate": 0.5784114052953157,
+  "prefill_n": 31220,
+  "prefill_tps": 947.140547193007,
+  "decode_tps_long": 15.93244642714889,
+  "vram_peak_mib": 22691,
+  "draft_tok_total": 1478.0,
+  "acc_tok_total": 853.0,
+  "drafts_total": 298.0,
+  "per_pos": {
+   "0": 262.0,
+   "1": 210.0,
+   "2": 168.0,
+   "3": 123.0,
+   "4": 90.0
+  }
+ },
+ {
+  "name": "Q_f16_n6",
+  "cfg": {
+   "name": "Q_f16_n6",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "f16",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 6
+  },
+  "vram_loaded_mib": 22769,
+  "decode_tps_short": [
+   65.77304623999709,
+   67.91466513459693,
+   68.01185714810833
+  ],
+  "decode_tps_short_med": 67.91466513459693,
+  "draft_n": 564,
+  "draft_acc": 289,
+  "accept_rate": 0.5124113475177305,
+  "prefill_n": 31220,
+  "prefill_tps": 944.868382588406,
+  "decode_tps_long": 14.964011552216919,
+  "vram_peak_mib": 22843,
+  "draft_tok_total": 1698.0,
+  "acc_tok_total": 868.0,
+  "drafts_total": 283.0,
+  "per_pos": {
+   "0": 250.0,
+   "1": 201.0,
+   "2": 162.0,
+   "3": 120.0,
+   "4": 75.0,
+   "5": 60.0
+  }
+ }
+]

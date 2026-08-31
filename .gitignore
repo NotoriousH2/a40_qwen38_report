@@ -1,0 +1,4 @@
+llama-server.log
+llama-server.pid
+__pycache__/
+*.pyc

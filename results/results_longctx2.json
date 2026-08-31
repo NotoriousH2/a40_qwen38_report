@@ -1,0 +1,214 @@
+[
+ {
+  "name": "spec_f16",
+  "cfg": {
+   "name": "spec_f16",
+   "kv": "f16",
+   "spec": true
+  },
+  "vram_loaded": 22465,
+  "points": {
+   "8K": {
+    "prompt_n": 7980,
+    "prefill_tps": 997.1,
+    "prefill_s": 8.0,
+    "decode_tps": 93.5,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 22541
+   },
+   "32K": {
+    "prompt_n": 32000,
+    "prefill_tps": 965.3,
+    "prefill_s": 33.2,
+    "decode_tps": 93.8,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 22541
+   },
+   "64K": {
+    "prompt_n": 64000,
+    "prefill_tps": 851.1,
+    "prefill_s": 75.2,
+    "decode_tps": 87.37,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 22541
+   },
+   "110K": {
+    "prompt_n": 109990,
+    "prefill_tps": 737.4,
+    "prefill_s": 149.2,
+    "decode_tps": 78.56,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 22543
+   }
+  },
+  "reuse": {
+   "t1_prompt_n": 64009,
+   "t1_prefill_s": 75.1,
+   "t2_prompt_n": 261,
+   "t2_prefill_s": 0.7
+  }
+ },
+ {
+  "name": "spec_q8",
+  "cfg": {
+   "name": "spec_q8",
+   "kv": "q8_0",
+   "spec": true
+  },
+  "vram_loaded": 19117,
+  "points": {
+   "8K": {
+    "prompt_n": 7980,
+    "prefill_tps": 960.6,
+    "prefill_s": 8.3,
+    "decode_tps": 86.78,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 19193
+   },
+   "32K": {
+    "prompt_n": 32000,
+    "prefill_tps": 936.4,
+    "prefill_s": 34.2,
+    "decode_tps": 83.36,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 19193
+   },
+   "64K": {
+    "prompt_n": 64000,
+    "prefill_tps": 835.6,
+    "prefill_s": 76.6,
+    "decode_tps": 72.53,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 19193
+   },
+   "110K": {
+    "prompt_n": 109990,
+    "prefill_tps": 718.1,
+    "prefill_s": 153.2,
+    "decode_tps": 60.31,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 19195
+   }
+  },
+  "reuse": {
+   "t1_prompt_n": 13,
+   "t1_prefill_s": 0.4,
+   "t2_prompt_n": 14,
+   "t2_prefill_s": 0.4
+  }
+ },
+ {
+  "name": "spec_q4",
+  "cfg": {
+   "name": "spec_q4",
+   "kv": "q4_0",
+   "spec": true
+  },
+  "vram_loaded": 17069,
+  "points": {
+   "8K": {
+    "prompt_n": 7980,
+    "prefill_tps": 962.4,
+    "prefill_s": 8.3,
+    "decode_tps": 88.81,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 17145
+   },
+   "32K": {
+    "prompt_n": 32000,
+    "prefill_tps": 941.1,
+    "prefill_s": 34.0,
+    "decode_tps": 84.91,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 17145
+   },
+   "64K": {
+    "prompt_n": 64000,
+    "prefill_tps": 838.1,
+    "prefill_s": 76.4,
+    "decode_tps": 74.65,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 17145
+   },
+   "110K": {
+    "prompt_n": 109990,
+    "prefill_tps": 722.6,
+    "prefill_s": 152.2,
+    "decode_tps": 63.01,
+    "draft_n": 204,
+    "draft_acc": 204,
+    "vram": 17147
+   }
+  },
+  "reuse": {
+   "t1_prompt_n": 13,
+   "t1_prefill_s": 0.4,
+   "t2_prompt_n": 14,
+   "t2_prefill_s": 0.4
+  }
+ },
+ {
+  "name": "nospec_f16",
+  "cfg": {
+   "name": "nospec_f16",
+   "kv": "f16",
+   "spec": false
+  },
+  "vram_loaded": 20459,
+  "points": {
+   "8K": {
+    "prompt_n": 7980,
+    "prefill_tps": 1116.7,
+    "prefill_s": 7.1,
+    "decode_tps": 34.31,
+    "draft_n": null,
+    "draft_acc": null,
+    "vram": 20473
+   },
+   "32K": {
+    "prompt_n": 32000,
+    "prefill_tps": 1029.1,
+    "prefill_s": 31.1,
+    "decode_tps": 31.45,
+    "draft_n": null,
+    "draft_acc": null,
+    "vram": 20473
+   },
+   "64K": {
+    "prompt_n": 64000,
+    "prefill_tps": 911.0,
+    "prefill_s": 70.3,
+    "decode_tps": 28.24,
+    "draft_n": null,
+    "draft_acc": null,
+    "vram": 20473
+   },
+   "110K": {
+    "prompt_n": 109990,
+    "prefill_tps": 780.5,
+    "prefill_s": 140.9,
+    "decode_tps": 24.54,
+    "draft_n": null,
+    "draft_acc": null,
+    "vram": 20475
+   }
+  },
+  "reuse": {
+   "t1_prompt_n": 64009,
+   "t1_prefill_s": 70.4,
+   "t2_prompt_n": 261,
+   "t2_prefill_s": 0.6
+  }
+ }
+]

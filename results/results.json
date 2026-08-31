@@ -1,0 +1,259 @@
+[
+ {
+  "name": "A_base",
+  "cfg": {
+   "name": "A_base",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 4
+  },
+  "vram_loaded_mib": 19117,
+  "decode_tps_short": [
+   65.35750298161611,
+   67.2391651458853,
+   67.02490281389092
+  ],
+  "decode_tps_short_med": 67.02490281389092,
+  "draft_n": 470,
+  "draft_acc": 265,
+  "accept_rate": 0.5638297872340425,
+  "prefill_n": 31220,
+  "prefill_tps": 951.0616339726283,
+  "decode_tps_long": 15.929654645087293,
+  "vram_peak_mib": 19195,
+  "draft_tok_total": 1414.0,
+  "acc_tok_total": 796.0,
+  "drafts_total": 355.0,
+  "per_pos": {
+   "0": 301.0,
+   "1": 219.0,
+   "2": 165.0,
+   "3": 111.0
+  }
+ },
+ {
+  "name": "B_ub1024",
+  "cfg": {
+   "name": "B_ub1024",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 1024,
+   "spec": true,
+   "nmax": 4
+  },
+  "vram_loaded_mib": 20267,
+  "decode_tps_short": [
+   64.49790903841364,
+   66.6302490892706,
+   66.42268901937565
+  ],
+  "decode_tps_short_med": 66.42268901937565,
+  "draft_n": 470,
+  "draft_acc": 265,
+  "accept_rate": 0.5638297872340425,
+  "prefill_n": 31220,
+  "prefill_tps": 961.9229783156618,
+  "decode_tps_long": 15.885623510722795,
+  "vram_peak_mib": 20453,
+  "draft_tok_total": 1414.0,
+  "acc_tok_total": 796.0,
+  "drafts_total": 355.0,
+  "per_pos": {
+   "0": 301.0,
+   "1": 219.0,
+   "2": 165.0,
+   "3": 111.0
+  }
+ },
+ {
+  "name": "C_ub2048",
+  "cfg": {
+   "name": "C_ub2048",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 2048,
+   "spec": true,
+   "nmax": 4
+  },
+  "vram_loaded_mib": 21801,
+  "decode_tps_short": [
+   64.29570518119303,
+   66.75192787584908,
+   66.64253847171085
+  ],
+  "decode_tps_short_med": 66.64253847171085,
+  "draft_n": 470,
+  "draft_acc": 265,
+  "accept_rate": 0.5638297872340425,
+  "prefill_n": 31220,
+  "prefill_tps": 938.7168816655063,
+  "decode_tps_long": 15.530603053316561,
+  "vram_peak_mib": 22139,
+  "draft_tok_total": 1414.0,
+  "acc_tok_total": 796.0,
+  "drafts_total": 355.0,
+  "per_pos": {
+   "0": 301.0,
+   "1": 219.0,
+   "2": 165.0,
+   "3": 111.0
+  }
+ },
+ {
+  "name": "D_ub1024_n6",
+  "cfg": {
+   "name": "D_ub1024_n6",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 1024,
+   "spec": true,
+   "nmax": 6
+  },
+  "vram_loaded_mib": 20565,
+  "decode_tps_short": [
+   60.05110458754377,
+   61.74931455036342,
+   61.421111317986394
+  ],
+  "decode_tps_short_med": 61.421111317986394,
+  "draft_n": 618,
+  "draft_acc": 279,
+  "accept_rate": 0.45145631067961167,
+  "prefill_n": 31220,
+  "prefill_tps": 951.4871680435142,
+  "decode_tps_long": 13.5963779249208,
+  "vram_peak_mib": 20751,
+  "draft_tok_total": 1860.0,
+  "acc_tok_total": 838.0,
+  "drafts_total": 310.0,
+  "per_pos": {
+   "0": 268.0,
+   "1": 192.0,
+   "2": 144.0,
+   "3": 111.0,
+   "4": 72.0,
+   "5": 51.0
+  }
+ },
+ {
+  "name": "E_ub1024_n8",
+  "cfg": {
+   "name": "E_ub1024_n8",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 1024,
+   "spec": true,
+   "nmax": 8
+  },
+  "vram_loaded_mib": 20867,
+  "decode_tps_short": [
+   56.229031562838216,
+   58.016484558526365,
+   58.14340075437647
+  ],
+  "decode_tps_short_med": 58.016484558526365,
+  "draft_n": 693,
+  "draft_acc": 283,
+  "accept_rate": 0.4083694083694084,
+  "prefill_n": 31220,
+  "prefill_tps": 951.45167541284,
+  "decode_tps_long": 12.560131630179484,
+  "vram_peak_mib": 21053,
+  "draft_tok_total": 2086.0,
+  "acc_tok_total": 850.0,
+  "drafts_total": 298.0,
+  "per_pos": {
+   "0": 253.0,
+   "1": 189.0,
+   "2": 135.0,
+   "3": 111.0,
+   "4": 75.0,
+   "5": 57.0,
+   "6": 30.0,
+   "7": 0.0
+  }
+ },
+ {
+  "name": "F_n8_f16kv",
+  "cfg": {
+   "name": "F_n8_f16kv",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "f16",
+   "b": 2048,
+   "ub": 1024,
+   "spec": true,
+   "nmax": 8
+  },
+  "vram_loaded_mib": 24277,
+  "decode_tps_short": [
+   59.109854970961315,
+   61.26938324127195,
+   61.46367312366892
+  ],
+  "decode_tps_short_med": 61.26938324127195,
+  "draft_n": 663,
+  "draft_acc": 288,
+  "accept_rate": 0.4343891402714932,
+  "prefill_n": 31220,
+  "prefill_tps": 958.2811297256658,
+  "decode_tps_long": 13.447367005540315,
+  "vram_peak_mib": 24463,
+  "draft_tok_total": 1996.0,
+  "acc_tok_total": 865.0,
+  "drafts_total": 286.0,
+  "per_pos": {
+   "0": 250.0,
+   "1": 201.0,
+   "2": 159.0,
+   "3": 111.0,
+   "4": 75.0,
+   "5": 39.0,
+   "6": 30.0,
+   "7": 0.0
+  }
+ },
+ {
+  "name": "G_nospec",
+  "cfg": {
+   "name": "G_nospec",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 1024,
+   "spec": false,
+   "nmax": 0
+  },
+  "vram_loaded_mib": 17423,
+  "decode_tps_short": [
+   35.292802636473716,
+   35.28459281211388,
+   35.25720452897664
+  ],
+  "decode_tps_short_med": 35.28459281211388,
+  "draft_n": 0,
+  "draft_acc": 0,
+  "accept_rate": null,
+  "prefill_n": 31220,
+  "prefill_tps": 1102.705464191671,
+  "decode_tps_long": 27.563395810363836,
+  "vram_peak_mib": 17447,
+  "draft_tok_total": 0.0,
+  "acc_tok_total": 0.0,
+  "drafts_total": 0.0,
+  "per_pos": {}
+ }
+]

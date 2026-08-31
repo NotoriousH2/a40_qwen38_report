@@ -1,0 +1,210 @@
+[
+ {
+  "name": "I_n4_f16kv",
+  "cfg": {
+   "name": "I_n4_f16kv",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "f16",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 4
+  },
+  "vram_loaded_mib": 22465,
+  "decode_tps_short": [
+   73.52576991847661,
+   75.740616667049,
+   75.62214516529657
+  ],
+  "decode_tps_short_med": 75.62214516529657,
+  "draft_n": 419,
+  "draft_acc": 278,
+  "accept_rate": 0.6634844868735084,
+  "prefill_n": 31220,
+  "prefill_tps": 957.1981283925231,
+  "decode_tps_long": 17.594791941585292,
+  "vram_peak_mib": 22543,
+  "draft_tok_total": 1261.0,
+  "acc_tok_total": 835.0,
+  "drafts_total": 316.0,
+  "per_pos": {
+   "0": 283.0,
+   "1": 231.0,
+   "2": 183.0,
+   "3": 138.0
+  }
+ },
+ {
+  "name": "J_n3",
+  "cfg": {
+   "name": "J_n3",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 3
+  },
+  "vram_loaded_mib": 18967,
+  "decode_tps_short": [
+   65.52109111948002,
+   68.01256971732343,
+   67.46933448283698
+  ],
+  "decode_tps_short_med": 67.46933448283698,
+  "draft_n": 374,
+  "draft_acc": 257,
+  "accept_rate": 0.6871657754010695,
+  "prefill_n": 31220,
+  "prefill_tps": 936.6732103781231,
+  "decode_tps_long": 16.821706730364863,
+  "vram_peak_mib": 19043,
+  "draft_tok_total": 1125.0,
+  "acc_tok_total": 772.0,
+  "drafts_total": 376.0,
+  "per_pos": {
+   "0": 316.0,
+   "1": 249.0,
+   "2": 207.0
+  }
+ },
+ {
+  "name": "K_n2",
+  "cfg": {
+   "name": "K_n2",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 2
+  },
+  "vram_loaded_mib": 18817,
+  "decode_tps_short": [
+   60.000877297422626,
+   62.18218894293526,
+   62.08634768225018
+  ],
+  "decode_tps_short_med": 62.08634768225018,
+  "draft_n": 298,
+  "draft_acc": 234,
+  "accept_rate": 0.785234899328859,
+  "prefill_n": 31220,
+  "prefill_tps": 932.1573659585624,
+  "decode_tps_long": 16.961514323998845,
+  "vram_peak_mib": 18893,
+  "draft_tok_total": 896.0,
+  "acc_tok_total": 703.0,
+  "drafts_total": 448.0,
+  "per_pos": {
+   "0": 397.0,
+   "1": 306.0
+  }
+ },
+ {
+  "name": "L_nospec_f16",
+  "cfg": {
+   "name": "L_nospec_f16",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "f16",
+   "b": 2048,
+   "ub": 256,
+   "spec": false,
+   "nmax": 0
+  },
+  "vram_loaded_mib": 20459,
+  "decode_tps_short": [
+   35.51507146504028,
+   35.4320091660665,
+   35.49985980799488
+  ],
+  "decode_tps_short_med": 35.49985980799488,
+  "draft_n": 0,
+  "draft_acc": 0,
+  "accept_rate": null,
+  "prefill_n": 31220,
+  "prefill_tps": 1026.9639888597105,
+  "decode_tps_long": 26.619815790874725,
+  "vram_peak_mib": 20475,
+  "draft_tok_total": 0.0,
+  "acc_tok_total": 0.0,
+  "drafts_total": 0.0,
+  "per_pos": {}
+ },
+ {
+  "name": "M_q4_n4",
+  "cfg": {
+   "name": "M_q4_n4",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q4_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "q8_0",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 4
+  },
+  "vram_loaded_mib": 23165,
+  "decode_tps_short": [
+   57.133293016819856,
+   58.863896067568994,
+   58.954903500982304
+  ],
+  "decode_tps_short_med": 58.863896067568994,
+  "draft_n": 459,
+  "draft_acc": 268,
+  "accept_rate": 0.5838779956427015,
+  "prefill_n": 31220,
+  "prefill_tps": 914.8157129825184,
+  "decode_tps_long": 14.097611864550146,
+  "vram_peak_mib": 23241,
+  "draft_tok_total": 1381.0,
+  "acc_tok_total": 805.0,
+  "drafts_total": 346.0,
+  "per_pos": {
+   "0": 283.0,
+   "1": 225.0,
+   "2": 174.0,
+   "3": 123.0
+  }
+ },
+ {
+  "name": "N_q4_n4_f16",
+  "cfg": {
+   "name": "N_q4_n4_f16",
+   "model": "/root/models/gguf/Qwen3.8-27B-UD-Q4_K_XL.gguf",
+   "ctx": 131072,
+   "kv": "f16",
+   "b": 2048,
+   "ub": 256,
+   "spec": true,
+   "nmax": 4
+  },
+  "vram_loaded_mib": 26513,
+  "decode_tps_short": [
+   59.37815107289963,
+   61.18435661374139,
+   61.165722856672424
+  ],
+  "decode_tps_short_med": 61.165722856672424,
+  "draft_n": 444,
+  "draft_acc": 271,
+  "accept_rate": 0.6103603603603603,
+  "prefill_n": 31220,
+  "prefill_tps": 929.5700336634171,
+  "decode_tps_long": 15.613777597351902,
+  "vram_peak_mib": 26589,
+  "draft_tok_total": 1336.0,
+  "acc_tok_total": 814.0,
+  "drafts_total": 334.0,
+  "per_pos": {
+   "0": 280.0,
+   "1": 222.0,
+   "2": 183.0,
+   "3": 129.0
+  }
+ }
+]

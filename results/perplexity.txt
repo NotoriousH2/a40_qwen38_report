@@ -1,0 +1,4 @@
+##### Qwen3.8-27B-UD-Q3_K_XL
+4.58.198.630 I Final estimate: PPL = 1.6866 +/- 0.00689
+##### Qwen3.8-27B-UD-Q4_K_XL
+5.02.241.712 I Final estimate: PPL = 1.6707 +/- 0.00678

@@ -1,0 +1,35 @@
+0.00.173.440 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.355.251 W srv  llama_server: -----------------
+0.00.355.261 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.355.262 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.355.262 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.355.262 W srv  llama_server: -----------------
+0.00.356.647 I srv    load_model: loading model '/root/models/gguf/Qwen3.8-27B-UD-Q3_K_XL.gguf'
+0.00.803.623 E llama_init_from_model: failed to initialize the context: dflash requires ctx_other to be set (this warning is normal during memory fitting)
+0.00.867.122 W srv    load_model: [spec] failed to measure draft model memory: failed to create llama_context from model
+0.01.889.119 W model has unused tensor blk.64.attn_norm.weight (size = 20480 bytes) -- ignoring
+0.01.889.127 W model has unused tensor blk.64.post_attention_norm.weight (size = 20480 bytes) -- ignoring
+0.01.889.136 W model has unused tensor blk.64.attn_q.weight (size = 51609600 bytes) -- ignoring
+0.01.889.140 W model has unused tensor blk.64.attn_k.weight (size = 5570560 bytes) -- ignoring
+0.01.889.143 W model has unused tensor blk.64.attn_v.weight (size = 5570560 bytes) -- ignoring
+0.01.889.154 W model has unused tensor blk.64.attn_output.weight (size = 25804800 bytes) -- ignoring
+0.01.889.157 W model has unused tensor blk.64.attn_q_norm.weight (size = 1024 bytes) -- ignoring
+0.01.889.160 W model has unused tensor blk.64.attn_k_norm.weight (size = 1024 bytes) -- ignoring
+0.01.889.164 W model has unused tensor blk.64.ffn_gate.weight (size = 73113600 bytes) -- ignoring
+0.01.889.167 W model has unused tensor blk.64.ffn_down.weight (size = 73113600 bytes) -- ignoring
+0.01.889.170 W model has unused tensor blk.64.ffn_up.weight (size = 73113600 bytes) -- ignoring
+0.01.889.175 W model has unused tensor blk.64.nextn.eh_proj.weight (size = 43008000 bytes) -- ignoring
+0.01.889.179 W model has unused tensor blk.64.nextn.enorm.weight (size = 20480 bytes) -- ignoring
+0.01.889.182 W model has unused tensor blk.64.nextn.hnorm.weight (size = 20480 bytes) -- ignoring
+0.01.889.192 W model has unused tensor blk.64.nextn.shared_head_norm.weight (size = 20480 bytes) -- ignoring
+0.03.846.767 I cmn          init: llama threadpool init, n_threads = 48
+0.03.961.494 I common_speculative_init_result: loading draft model '/root/models/gguf/Qwen3.8-27B-DFlash2-Q4_K_M.gguf'
+0.04.703.247 W srv    load_model: cache_reuse is not supported by this context, it will be disabled
+0.04.815.503 I srv    load_model: initializing, n_slots = 2, n_ctx_slot = 131072, kv_unified = 'false'
+0.04.815.555 I common_speculative_impl_draft_dflash: adding speculative implementation 'draft-dflash'
+0.04.815.559 I common_speculative_impl_draft_dflash: - n_max=4, n_min=0, p_min=0.00
+0.04.815.560 I common_speculative_impl_draft_dflash: - block_size=8, mask_token_id=248070, n_extract=5, sample_from_anchor=true
+0.04.873.216 I srv  llama_server: model loaded
+0.04.873.226 I srv  llama_server: listening on http://127.0.0.1:8080
+0.04.873.226 W srv  llama_server: NOTICE: server default port will be changed to :9931 in a future release
+0.04.873.227 W srv  llama_server:         ref: https://github.com/ggml-org/llama.cpp/pull/26508

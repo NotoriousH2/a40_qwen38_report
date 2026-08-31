@@ -1,0 +1,71 @@
+[
+ {
+  "name": "spec_f16",
+  "runs": [
+   {
+    "prefill_s": 75.5,
+    "prompt_n": 64020,
+    "decode_tps": 55.74,
+    "acc": 0.578
+   },
+   {
+    "prefill_s": 0.7,
+    "prompt_n": 259,
+    "decode_tps": 47.78,
+    "acc": 0.432
+   },
+   {
+    "prefill_s": 0.7,
+    "prompt_n": 258,
+    "decode_tps": 48.55,
+    "acc": 0.443
+   }
+  ]
+ },
+ {
+  "name": "spec_q8",
+  "runs": [
+   {
+    "prefill_s": 77.2,
+    "prompt_n": 64020,
+    "decode_tps": 34.22,
+    "acc": 0.352
+   },
+   {
+    "prefill_s": 0.7,
+    "prompt_n": 259,
+    "decode_tps": 39.4,
+    "acc": 0.424
+   },
+   {
+    "prefill_s": 0.7,
+    "prompt_n": 258,
+    "decode_tps": 43.92,
+    "acc": 0.504
+   }
+  ]
+ },
+ {
+  "name": "nospec_f16",
+  "runs": [
+   {
+    "prefill_s": 70.4,
+    "prompt_n": 64020,
+    "decode_tps": 28.12,
+    "acc": 0.0
+   },
+   {
+    "prefill_s": 0.5,
+    "prompt_n": 259,
+    "decode_tps": 28.13,
+    "acc": 0.0
+   },
+   {
+    "prefill_s": 0.5,
+    "prompt_n": 258,
+    "decode_tps": 28.16,
+    "acc": 0.0
+   }
+  ]
+ }
+]
